@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<header class="post-header">{{ page.title }}</header>
+<div>
+  <span class="date" style="width: 20%;">{{ page.date | date_to_string }}</span>
+  <span style="float: right; margin-right: 5px;">
+    {% assign sortedTags = page.tags | sort %}
+    {% for tag in sortedTags %}
+      <a href="/tag/{{ tag }}/index.html" class="tag">{{ tag }}</a>
+    {% endfor %}
+  </span>
+</div>
+<div class="post-content">
+  {{ content }}
+</div>
+<br>
+<!-- Pagination links -->
+<div class="pagination">
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}" class="previous">
+        Previous
+      </a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    {% if page.next %}
+      <a href="{{ page.next.url }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+</div>
