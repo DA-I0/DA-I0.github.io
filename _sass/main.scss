@@ -186,7 +186,7 @@ blockquote {
 }
 
 .post-content {
-  padding: 0 10px 40px;
+  padding: 0 10px;
 }
 
 .post-excerpt {
@@ -205,6 +205,10 @@ blockquote {
 
 .post-excerpt a:hover {
   color: $color-dark;
+}
+
+.post-excerpt .post-content {
+  padding: 0 10px 40px;
 }
 
 .post-excerpt-header {
