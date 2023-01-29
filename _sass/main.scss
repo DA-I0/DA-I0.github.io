@@ -7,6 +7,11 @@ $color-green: #72dcbb;
 $color-blue: #34acba;
 $color-light: #ffe7d6;
 
+h2 {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
 html {
   min-height: 100%;
   position: relative;
@@ -56,10 +61,13 @@ header {
 }
 
 img {
-  border-color: $color-dark-pink;
-  border-style: solid;
   margin: 0 3% 5px 2%;
   width: 95%;
+}
+
+.img-small {
+  max-width: 30%;
+  width: auto;
 }
 
 .img-transparent-left {
@@ -67,12 +75,20 @@ img {
   width: auto;
   float: left;
   clear: right;
+  margin: auto 20px 10px 10px;
+}
+
+.img-transparent-right {
+  border-style: none;
+  width: auto;
+  float: right;
+  clear: left;
 }
 
 blockquote {
   background: darken($color-dark-pink, 3%);
   border-radius: 10px;
-  margin: 10px;
+  margin: 15px;
   padding: 1px 10px;
 }
 
@@ -85,11 +101,6 @@ blockquote {
 }
 
 .button {
-  //background-color: $color-dark-pink;
-  // border-color: $color-dark-pink;
-  // border-radius: 5px;
-  // border-style: solid;
-  // color: $color-yellow;
   float: right;
   margin-bottom: 5px;
   padding: 0 5px 0 5px;
@@ -165,7 +176,6 @@ blockquote {
 }
 
 .pagination {
-  padding-top: 10px;
   text-align: center;
 }
 
@@ -223,11 +233,11 @@ blockquote {
   width: 100%;
 }
 
-.post-excerpt-header a/*, .button a*/ {
+.post-excerpt-header a {
   color: $color-yellow;
 }
 
-.post-excerpt-header a:hover/*, .button a:hover*/ {
+.post-excerpt-header a:hover {
   color: $color-green;
 }
 
