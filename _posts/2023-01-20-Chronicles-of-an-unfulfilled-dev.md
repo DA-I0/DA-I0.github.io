@@ -33,7 +33,7 @@ Despite all those failures throughout the years one thing never really changed: 
 
 ## What's your point?
 
-I've decided to learn to use [Godot](https://godotengine.org) recently - it's an open source game engine I didn't even knew about until last year and after some... frustrating decisions made by Unity management I though to finally give it a shot.
+I've decided to learn to use [Godot](https://godotengine.org) recently - it's an open source game engine I didn't even knew about until last year and after some\... frustrating decisions made by Unity management I though to finally give it a shot.
 
 This decision brought another thought to my mind - I feel like besides my usual nonchalant approach to the creative process it would be interesting to try looking at it from a different, more mindful and methodical angle.
 
