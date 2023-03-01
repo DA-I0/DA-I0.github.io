@@ -12,6 +12,10 @@ h2 {
   margin-top: 30px;
 }
 
+h3 {
+	margin: 5px;
+}
+
 html {
   min-height: 100%;
   position: relative;
@@ -68,6 +72,11 @@ img {
   width: auto;
 }
 
+.img-bordered {
+	border-style: solid;
+	border-color: $color-dark-pink;
+}
+
 .img-small {
   max-width: 30%;
   width: auto;
@@ -88,11 +97,18 @@ img {
   clear: left;
 }
 
+ul {
+	margin-top: 0;
+	padding: 0 10px 0 30px;
+}
+
 blockquote {
   background: darken($color-dark-pink, 3%);
   border-radius: 10px;
-  margin: 15px;
-  padding: 1px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px 15px;
+  width: fit-content;
 }
 
 .blog-container {
@@ -265,4 +281,11 @@ blockquote {
   display: inline-block;
   margin-bottom: 5px;
   padding: 0 5px 0 5px;
+}
+
+video {
+	border-style: solid;
+	border-color: $color-dark-pink;
+	display: flex;
+	margin: auto;
 }
