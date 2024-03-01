@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: prototype block_breaker
+tags: prototype block_breaker release
 excerpt_separator: <!--more-->
 ---
 ![placeholder logo](/assets/images/block-breaker/logo_placeholder.png)

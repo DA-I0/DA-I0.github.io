@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: prototype block_breaker
+tags: prototype block_breaker release
 title: Blockade of Gopher Keep - Prototype 2 Released!
 excerpt_separator: <!--more-->
 ---
